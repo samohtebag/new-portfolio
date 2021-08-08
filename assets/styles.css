@@ -1,0 +1,12 @@
+body {
+    background-color: slategray;
+}
+
+.navColor {
+    background-color: orange;
+}
+
+.navItemColor {
+    color: black;
+    margin-left: 14rem;
+}
