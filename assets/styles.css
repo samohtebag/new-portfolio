@@ -1,12 +1,46 @@
 body {
-    background-color: slategray;
+    background-color: black;
 }
 
-.navColor {
-    background-color: orange;
+.myName {
+    text-align: center;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:60px;
+      letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: orange;
+    text-shadow: 
+                          6px 6px red,
+                          15px 15px #000000;
 }
 
-.navItemColor {
-    color: black;
-    margin-left: 2rem;
+.moveButton1 {
+    margin-top: 30rem;
+    margin-left: 82rem;
+}
+
+.button {
+    color: orange !important;
+    background-color: black !important;
+    border-color: red;
+}
+
+.moveBio {
+    margin-top: 150rem !important;
+    text-align: center;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.moveButton2 {
+    margin-top: 1rem;
+    margin-left: 82rem;
 }

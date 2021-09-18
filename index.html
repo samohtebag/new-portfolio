@@ -6,30 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/skeleton.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Gabe Thomas's Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navColor">
-        <div class="container-fluid navMargin">
-          <a class="navbar-brand navItemColor" href="#">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active navItemColor" aria-current="page" href="./projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemColor" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navItemColor" href="#">Resume</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+  <div class="container">
+    <p class="myName">Gabe Thomas</p>
+  </div>
+  
+  <a class="button button-primary moveButton1" href="#bio">You wanna click me, don't you ;)</a>
+
+  <div id="bio" class="container moveBio">
+    <p>Hey! I see you've stumbled upon my Portfolio!</p>
+    <p>I really appreciate that you've landed here, sometimes this place really doesn't see any traffic</p>
+    <p>So I currently work for a company called Bizzabo, as a senior member of the support team. This is where I learned some of my development work.</p>
+    <p>I then completed a coding bootcamp through Rutgers University, and now I try to be a jack of all trades for web development</p>
+  </div>
+
+  <a class="button button-primary moveButton2" href="#bio">Anyways, click me to keep moving on :)</a>
+
+  <div></div>
 </body>
 </html>
 
