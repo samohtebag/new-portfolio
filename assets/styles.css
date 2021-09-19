@@ -54,3 +54,7 @@ body {
     margin-top: 20rem;
     margin-left: 83rem;
 }
+
+.sixFeetApart {
+    margin-left: 28rem !important;
+}
