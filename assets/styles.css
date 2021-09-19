@@ -42,7 +42,7 @@ body {
 
 .moveButton2 {
     margin-top: 1rem;
-    margin-left: 82rem;
+    margin-left: 79rem;
 }
 
 .moveButton3 {
@@ -53,6 +53,11 @@ body {
 .moveButton4 {
     margin-top: 20rem;
     margin-left: 83rem;
+}
+
+.moveButton5 {
+    margin-top: 1rem;
+    margin-left: 84rem;
 }
 
 .sixFeetApart {
