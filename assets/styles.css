@@ -63,3 +63,21 @@ body {
 .sixFeetApart {
     margin-left: 28rem !important;
 }
+
+@media only screen and (max-width: 414px) {
+    .moveButton1 {
+      margin: 33rem 0 0 15rem;
+    }
+    .moveButton2 {
+        margin: 1rem 0 0 5rem;
+    }
+    .moveButton3 {
+        margin: 1rem 0 0 11rem;
+    }
+    .moveButton5 {
+        margin: 1rem 0 0 10rem;
+    }
+    .sixFeetApart {
+        margin: 0 0 0 3rem !important;
+    }
+  }
